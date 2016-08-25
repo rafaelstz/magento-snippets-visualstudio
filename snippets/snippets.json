@@ -1,0 +1,32 @@
+{
+	"getBaseUrl": {
+		"prefix": "getBaseUrl",
+		"body": "\n${3:$this}->getBaseUrl(${1})${2}\n",
+		"description": "Magento getBaseUrl function",
+		"scope": ""
+	},
+	"getSkinUrl": {
+		"prefix": "getSkinUrl",
+		"body": "\n${3:$this}->getSkinUrl(${1})${2}\n",
+		"description": "Magento getSkinUrl function",
+		"scope": ""
+	},
+	"getChildHtml": {
+		"prefix": "getChildHtml",
+		"body": "\n${3:$this}->getChildHtml(${1})${2}\n",
+		"description": "Magento getChildHtml function",
+		"scope": ""
+	},
+	"getFormActionUrl": {
+		"prefix": "getFormActionUrl",
+		"body": "\n${3:$this}->getFormActionUrl(${1})${2}\n",
+		"description": "Magento getFormActionUrl function",
+		"scope": ""
+	},	
+	"getCmsBlock": {
+		"prefix": "getCmsBlock",
+		"body": "\n$this->getLayout()->createBlock('cms/block')->setBlockId(${1:'block-name'})->toHtml()${2}\n",
+		"description": "Magento get CMS block by ID",
+		"scope": ""
+	}
+}
