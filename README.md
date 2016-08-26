@@ -1,6 +1,17 @@
-# Magento 1 Snippets
+<h1 align="center">
+  <br>
+    <img src="https://cdn.rawgit.com/rafaelstz/magento-snippets-visualstudio/master/images/icon.png" alt="Magento Snippets" width="128" height="128">
+  <br>
+  VS Code - Magento Snippets
+  <br>
+  <br>
+</h1>
 
-A set of Magento 1 Snippets for Visual Studio Code.
+<h4 align="center">A set of Magento Snippets for Visual Studio Code.</h4>
+
+<p align="center">  
+  <a href="https://github.com/rafaelstz/magento-snippets-visualstudio/releases"><img src="https://img.shields.io/github/release/rafaelstz/magento-snippets-visualstudio.svg" alt="Release"></a>       
+</p>
 
 ## Available Snippets
 
