@@ -15,13 +15,13 @@
 
 ## Available Snippets
 
-### Basic Functions
+### URL's Functions
 
 Trigger | Description
 --- | ---
-getBaseUrl | URL of your store
-getSkinUrl | URL of your theme skin folder
-getFormActionUrl | Get form action
+getBaseUrl | Store URL
+getSkinUrl | Skin folder URL
+getUrl | Simple get URL
 
 ### Blocks
 
@@ -30,11 +30,39 @@ Trigger | Description
 getChildHtml | Get a block XML
 getCmsBlock | Get admin static block by ID
 
+### store
+
+Trigger | Description
+--- | ---
+getStoreConfig | Get Store Config
+
+### Form
+
+Trigger | Description
+--- | ---
+getFormActionUrl | Get the default form action
+
+### Helpers
+
+Trigger | Description
+--- | ---
+getTranslation | Get string translate
+
+### Product View
+
+Trigger | Description
+--- | ---
+formatPriceCurrency | Get formatted price
+getAttrText | Get attribute by name
+getProducType | Get product type
+getProducId | Get product ID
 
 ## Source
 
-[Github](https://github.com/rafaelstz/magento-1-snippets-visualstudio)
+[Github](https://github.com/rafaelstz/magento-snippets-visualstudio)
 
 ## License
 
-This Visual Studio Code extension is open-source software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Copyright (c) All rights reserved.
+
+[Rafael Corrêa Gomes](https://github.com/rafaelstz) - [MIT license](http://opensource.org/licenses/MIT).

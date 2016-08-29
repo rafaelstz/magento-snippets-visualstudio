@@ -1,14 +1,28 @@
 {
+	// URL
 	"getBaseUrl": {
 		"prefix": "getBaseUrl",
 		"body": "\n${3:$this}->getBaseUrl(${1})${2}\n",
-		"description": "Magento getBaseUrl function",
+		"description": "Magento get base url function",
 		"scope": ""
 	},
 	"getSkinUrl": {
 		"prefix": "getSkinUrl",
-		"body": "\n${3:$this}->getSkinUrl(${1})${2}\n",
-		"description": "Magento getSkinUrl function",
+		"body": "\n${3:$this}->getSkinUrl('${1:images/}')${2}\n",
+		"description": "Magento get skin url function",
+		"scope": ""
+	},	
+	"getUrl": {
+		"prefix": "getUrl",
+		"body": "\n${3:$this}->getUrl('{$1}')${2}\n",
+		"description": "Magento get url function",
+		"scope": ""
+	},
+	// Blocks
+	"getCmsBlock": {
+		"prefix": "getCmsBlock",
+		"body": "\n$this->getLayout()->createBlock('cms/block')->setBlockId(${1:'block-name'})->toHtml()${2}\n",
+		"description": "Magento get CMS block by ID",
 		"scope": ""
 	},
 	"getChildHtml": {
@@ -17,16 +31,50 @@
 		"description": "Magento getChildHtml function",
 		"scope": ""
 	},
+	// Store
+	"getStoreConfig": {
+		"prefix": "getStoreConfig",
+		"body": "\nMage::getStoreConfig('${1:general/store_information/}')${2}\n",
+		"description": "Magento get config function",
+		"scope": ""
+	},
+	// Form
 	"getFormActionUrl": {
 		"prefix": "getFormActionUrl",
 		"body": "\n${3:$this}->getFormActionUrl(${1})${2}\n",
-		"description": "Magento getFormActionUrl function",
+		"description": "Magento get form action Url function",
 		"scope": ""
-	},	
-	"getCmsBlock": {
-		"prefix": "getCmsBlock",
-		"body": "\n$this->getLayout()->createBlock('cms/block')->setBlockId(${1:'block-name'})->toHtml()${2}\n",
-		"description": "Magento get CMS block by ID",
+	},
+	// Helpers
+	"getTranslation": {
+		"prefix": "getTranslation",
+		"body": "\n${3:$this}->__('${1}')${2}\n",
+		"description": "Magento helper to translate",
+		"scope":""
+	},
+	// Product View
+	"formatPriceCurrency": {
+		"prefix": "formatPriceCurrency",
+		"body": "\nMage::helper('core')->currency(${1}, true, false)${2}\n",
+		"description": "Magento format price currency",
+		"scope": ""
+	},
+	"getAttrText": {
+		"prefix": "getAttrText",
+		"body": "\n${3:$_product}->getAttributeText('${1}')${2}\n",
+		"description": "Magento get product text attribute function",
+		"scope": ""
+	},
+	"getProducType": {
+		"prefix": "getProducType",
+		"body": "\n${2:$_product}->getTypeId()${1}\n",
+		"description": "Magento get product type",
+		"scope": ""
+	},
+	"getProducId": {
+		"prefix": "getProducId",
+		"body": "\n${2:$_product}->getId()${1}\n",
+		"description": "Magento get product ID",
 		"scope": ""
 	}
 }
