@@ -45,6 +45,12 @@
 		"description": "Magento get form action Url function",
 		"scope": ""
 	},
+	"getPostActionUrl": {
+		"prefix": "getPostActionUrl",
+		"body": "\n${3:$this}->getPostActionUrl(${1})${2}\n",
+		"description": "Magento get form post action function",
+		"scope": ""
+	},
 	// Helpers
 	"getTranslation": {
 		"prefix": "getTranslation",

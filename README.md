@@ -41,6 +41,7 @@ getStoreConfig | Get Store Config
 Trigger | Description
 --- | ---
 getFormActionUrl | Get the default form action
+getPostActionUrl | Get post action URL
 
 ### Helpers
 
