@@ -30,7 +30,7 @@ Trigger | Description
 getChildHtml | Get a block XML
 getCmsBlock | Get admin static block by ID
 
-### store
+### Store
 
 Trigger | Description
 --- | ---
@@ -41,6 +41,7 @@ getStoreConfig | Get Store Config
 Trigger | Description
 --- | ---
 getFormActionUrl | Get the default form action
+getPostActionUrl | Get post action URL
 
 ### Helpers
 
