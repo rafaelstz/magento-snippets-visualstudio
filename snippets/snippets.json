@@ -52,6 +52,12 @@
 		"scope": ""
 	},
 	// Helpers
+	"getHelper": {
+		"prefix": "getHelper",
+		"body": "\n${3:Mage::}helper('${1:Vendor\/Module\/Helper}')${2}\n",
+		"description": "Magento get Helper",
+		"scope": ""
+	},
 	"getTranslation": {
 		"prefix": "getTranslation",
 		"body": "\n${3:$this}->__('${1}')${2}\n",

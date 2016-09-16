@@ -47,6 +47,7 @@ getPostActionUrl | Get post action URL
 
 Trigger | Description
 --- | ---
+getHelper	| Get a specific Helper
 getTranslation | Get string translate
 
 ### Product View
