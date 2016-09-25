@@ -3,7 +3,7 @@
 	"displayName": "Magento Snippets",
 	"description": "A set of Magento Snippets for Visual Studio Code",
 	"icon": "images/icon.png",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"publisher": "rafaelcgstz",
 	"license":"See License section in README.md",
 	"homepage":"https://github.com/rafaelstz/magento-snippets-visualstudio/blob/master/README.md",
