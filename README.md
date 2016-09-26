@@ -29,6 +29,7 @@ Trigger | Description
 --- | ---
 getChildHtml | Get a block XML
 getCmsBlock | Get admin static block by ID
+getMessagesBlock | Get message block
 
 ### Store
 

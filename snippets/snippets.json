@@ -31,6 +31,12 @@
 		"description": "Magento getChildHtml function",
 		"scope": ""
 	},
+	"getMessagesBlock": {
+		"prefix": "getMessagesBlock",
+		"body": "\n${3:$this}->getMessagesBlock->()->setEscapeMessageFlag(${1:true})${2}\n",
+		"description": "Magento message block",
+		"scope": ""
+	},
 	// Store
 	"getStoreConfig": {
 		"prefix": "getStoreConfig",
